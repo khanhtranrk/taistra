@@ -1,0 +1,50 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AmqpGate	external/taistra/amqp_gate.go	/^type AmqpGate struct {$/;"	t
+AmqpGate	external/taistra/contact_gate.go	/^type AmqpGate struct {$/;"	t
+AmqpGate	external/taistra/message_gate.go	/^type AmqpGate struct {$/;"	t
+Apis	external/taistra/apis.go	/^type Apis struct {$/;"	t
+Broker	external/taistra/broker.go	/^type Broker struct {$/;"	t
+BuildMessage	external/taistra/message_builder.go	/^func BuildMessage(typ uint8, receiverId uint64, senderId uint64, safeKey uint64, content []byte) ([]byte, error) {$/;"	f
+CheckMessage	external/taistra/gate.go	/^func (g *Gate) CheckMessage(msg []byte) error {$/;"	f
+Close	external/taistra/broker.go	/^func (b *Broker) Close() error {$/;"	f
+Config	external/taistra/config.go	/^type Config struct {$/;"	t
+Gate	external/taistra/Gate.go	/^type Gate struct {$/;"	t
+Gate	external/taistra/gate.go	/^type Gate struct {$/;"	t
+HttpGate	external/taistra/http_gate.go	/^type HttpGate struct {$/;"	t
+HttpGate	external/taistra/legal_gate.go	/^type HttpGate struct {$/;"	t
+HttpGate	external/taistra/report_gate.go	/^type HttpGate struct {$/;"	t
+NewApi	external/taistra/apis.go	/^func NewApi(cfg *Config, apiKey string) *Apis {$/;"	f
+NewBroker	external/taistra/broker.go	/^func NewBroker(cfg *Config) (*Broker, error) {$/;"	f
+NewConfig	external/taistra/config.go	/^func NewConfig() (*Config, error) {$/;"	f
+NewHttpGate	external/taistra/http_gate.go	/^func NewHttpGate(apis *Apis) *HttpGate {$/;"	f
+NewHttpGate	external/taistra/legal_gate.go	/^func NewHttpGate(apis *Apis) *HttpGate {$/;"	f
+NewHttpGate	external/taistra/report_gate.go	/^func NewHttpGate(apis *Apis) *HttpGate {$/;"	f
+Send	external/taistra/Gate.go	/^func (s *Sender) Send(msg []byte) error {$/;"	f
+Send	external/taistra/sender.go	/^func (s *Sender) Send(msg []byte) error {$/;"	f
+SendMessage	external/taistra/amqp_gate.go	/^func (g *AmqpGate) SendMessage(msg []byte) error {$/;"	f
+SendMessage	external/taistra/contact_gate.go	/^func (g *AmqpGate) SendMessage(msg []byte) error {$/;"	f
+SendMessage	external/taistra/gate.go	/^func (g *Gate) SendMessage(msg []byte) error {$/;"	f
+SendMessage	external/taistra/message_gate.go	/^func (g *AmqpGate) SendMessage(msg []byte) error {$/;"	f
+Sender	external/taistra/sender.go	/^type Sender struct {$/;"	t
+ValidateMessage	external/taistra/apis.go	/^func (a *Apis) ValidateMessage(msg []byte) ([]byte, error) {$/;"	f
+ValidateMessage	external/taistra/http_gate.go	/^func (g *HttpGate) ValidateMessage(msg []byte) (byte, error) {$/;"	f
+ValidateMessage	external/taistra/legal_gate.go	/^func (g *HttpGate) ValidateMessage(msg []byte) (byte, error) {$/;"	f
+ValidateMessage	external/taistra/report_gate.go	/^func (g *HttpGate) ValidateMessage(msg []byte) (byte, error) {$/;"	f
+taistra	external/taistra/Gate.go	/^package taistra$/;"	p
+taistra	external/taistra/amqp_gate.go	/^package taistra$/;"	p
+taistra	external/taistra/apis.go	/^package taistra$/;"	p
+taistra	external/taistra/broker.go	/^package taistra$/;"	p
+taistra	external/taistra/config.go	/^package taistra$/;"	p
+taistra	external/taistra/contact_gate.go	/^package taistra$/;"	p
+taistra	external/taistra/gate.go	/^package taistra$/;"	p
+taistra	external/taistra/http_gate.go	/^package taistra$/;"	p
+taistra	external/taistra/legal_gate.go	/^package taistra$/;"	p
+taistra	external/taistra/message_builder.go	/^package taistra$/;"	p
+taistra	external/taistra/message_gate.go	/^package taistra$/;"	p
+taistra	external/taistra/report_gate.go	/^package taistra$/;"	p
+taistra	external/taistra/sender.go	/^package taistra$/;"	p
